@@ -7,6 +7,7 @@
   width: 20%;
   margin: auto;
   display: inline-block;
+  transform: translateX(150px) 
 }
 
 /****************************************
@@ -18,10 +19,13 @@
   width: 200px;
   height: 200px;
   filter: grayscale(100%);
+  transition: 10s;
 
 }
 
 .transition-demo img:hover {
+  filter: none;
+  transform: rotate(360deg) scale 2.0);
 
 }
 
@@ -35,11 +39,40 @@
   width: 500px;
   margin: auto;
   background-color: palegreen;
+  animation: sale-bar 10s;
 
 }
 
 @keyframes sale-bar {
   0% { background-color: lightgreen; width: 450px }
+  25% { background-color: purple; width: 350px }
+  50% { background-color: yellow; width: 450px }
   75% { background-color: #FF033E; width: 125x }
   100% { background-color: crimson; width: 10px }
+}
+section
+
+div class="inner-div"
+
+
+.inner -div
+bqackground
+::-webkit-slider-thumbheight
+aniumation
+
+
+
+background
+::-webkit-slider-thumbheight
+aniumation:
+
+@keyframes Gilbert-moves{
+  @keyframes sale-bar {
+    0% {transform: translateX(0) translate Y(0)background purple}
+    25% { background-color: purple; width: 350px }
+    50% { background-color: yellow; width: 450px }
+    75% { background-color: #FF033E; width: 125x }
+    100% { background-color: crimson; width: 10px }
+
+
 }
